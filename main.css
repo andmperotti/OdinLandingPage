@@ -16,8 +16,9 @@ header{
     background-color: #1F2937;
     display: flex;
     justify-content: center;
+    position: sticky;
+    top: 0;
 }
-
 
 
 nav{
@@ -25,7 +26,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    margin: 0 100px;
+    margin: 0 130px;
     width: 100%;
 }
 
@@ -39,11 +40,65 @@ nav{
 nav ul {
     list-style-type: none;
     display: flex;
-    /* margin-left: auto; */
+    margin-right: 70px;
     gap: 10px;
 }
 nav ul a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+main {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.hero-container {
+    max-width: 500px;
+    margin-left: 70px;
+    margin-top: 50px;
+} 
+.hero-container h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-container p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main-img {
+    max-width: 450px;
+    margin-right: 70px;
+    margin-top: 50px;
+}
+
+#wildlife {
+    border-color: #3882F6;
+    background-color: white;
+}
+
+#wildlife h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.animal-container img {
+    border-radius: 5px;
+    border: 5px solid #3882F6;
+    width: 250px;
+}
+
+.animal-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
