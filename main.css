@@ -20,27 +20,24 @@ header{
     top: 0;
 }
 
-
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    margin: 0 130px;
-    width: 100%;
+    width: 75%;
 }
 
 .logo{
     color: #F9FAF8;
     font-weight: 700;
     font-size: 24px;
-    
+    margin-right: auto;
 }
 
 nav ul {
     list-style-type: none;
     display: flex;
-    margin-right: 70px;
     gap: 10px;
 }
 nav ul a {
@@ -53,14 +50,21 @@ main {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
-    
+    align-items: center;
 }
 
 .hero-container {
-    max-width: 500px;
-    margin-left: 70px;
-    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 0;
+    width: 72%;
 } 
+
+.hero-content {
+    width: 33%;
+}
+
 .hero-container h1{
     font-size: 48px;
     color: #F9FAF8;
@@ -72,10 +76,22 @@ main {
     color: #E5E7EB;
 }
 
-.main-img {
-    max-width: 450px;
-    margin-right: 70px;
-    margin-top: 50px;
+.hero-button {
+    border-radius: 10px;
+    background-color: #3882F6;
+    padding: 5px 40px;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    margin-top: 10px;
+}
+
+.hero-imge {
+    width: 33%;
+}
+
+.hero-img img{
+    width: 500px;
 }
 
 #wildlife {
@@ -95,12 +111,11 @@ main {
 .animal-container {
     display: flex;
     align-items: flex-start;
-    max-width: 70%;
+    width: 75%;
     gap: 10px;
     padding-bottom: 80px;
     text-align: center;
 }
-
 
 .animal-container img {
     border-radius: 15px;
@@ -108,18 +123,24 @@ main {
     width: 250px;
 }
 
-
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
 
 #quote {
-    background-color: #E5E7EB;
+    width: 70%;
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 150px 300px;
 }
+
 #quote span a {
     color: black;
     text-decoration: none;
@@ -131,20 +152,46 @@ main {
     align-self: flex-end;
 }
 
+#help-out {
+    background-color: white;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-#help-out
+.action {
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    
+}
 
+.action-content {
+    width: 80%;
+    color: white;
+}
 
+.action-content h3 {
+    font-size: 20px
+}
 
-
+.action-button button{
+    border: 3px solid white;
+    border-radius: 15px;
+    background-color: #3882F6;
+    padding: 10px 15px;
+    color: white;
+}
 
 footer {
     background-color: #1F2937;
     color: white;
     text-align: center;
     font-size: 20px;
-    padding: 20px;
-    position: fixed;
-    bottom: 0;
+    padding: 35px;
     width: 100%;
 }
